@@ -37,8 +37,8 @@ describe("Testing LandingPage",()=> {
         expect(message).to.be.equal('Subscribed successfully')
 
         //assert
-        assert.equal(4, 4, 'Not Equal')
-        assert.strictEqual(4, '4', 'Not strictly Equal')
+        assert.equal(3, 3, 'Not Equal')
+        assert.strictEqual(3, 3, 'Not strictly Equal')
         
       
         

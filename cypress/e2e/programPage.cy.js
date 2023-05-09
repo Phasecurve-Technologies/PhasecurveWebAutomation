@@ -14,7 +14,7 @@ describe("Given I'm in programmePage",()=> {
       cy.wait(3000)
       cy.get('[name="firstName"]').type('John')
       cy.get('[name="lastName"]').type('Chimezie')
-      cy.get('[name="email"]').type('mahzeeljohn@gmail.com')
+      cy.get('[name="email"]').type(Cypress.env('user_email'),{log: false})
       cy.get('[name="experience"]').select('1-3 Years')
         .should('have.value', '1-3 Years')
         .should('be.visible')
@@ -42,8 +42,8 @@ describe("Given I'm in programmePage",()=> {
 
       cy.scrollTo(0,2500)
 
-      
-      //cy.get('.css-1krw1ew').click()
+      // Click the LinkedIn Profile Icon
+      cy.get('.css-1krw1ew').click()
 
       
 
