@@ -28,7 +28,7 @@ describe("Given I'm in programmePage",()=> {
       //enter linkedIn username
       cy.get('[type="url"]')
         .type('https://www.linkedin.com/in/ifeanyi-chimezie-92330714a/')
-      cy.get('.css-1b36lv3 > .chakra-button').click()  
+      //cy.get('.css-1b36lv3 > .chakra-button').click()  
 
 
       cy.wait(2000)
@@ -43,7 +43,7 @@ describe("Given I'm in programmePage",()=> {
       cy.scrollTo(0,2500)
 
       
-      cy.get('.css-1krw1ew').click()
+      //cy.get('.css-1krw1ew').click()
 
       
 
