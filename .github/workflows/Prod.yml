@@ -1,4 +1,4 @@
-name: Phasecureve Technologies Workflow
+name: Phasecurve Technologies Workflow
 
 on:
   push:
@@ -14,13 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Hello Phasecureve Technologies
-        run: echo "Phasecureve Technologies"
+      - name: Hello Phasecurve Technologies
+        run: echo "Phasecurve Technologies"
         shell: bash
   
   goodbye:
     runs-on: ubuntu-latest
     steps:
-      - name: goodbye Phasecureve Technologies
-        run: echo "Goodbye Phasecureve Technologies"
+      - name: goodbye Phasecurve Technologies
+        run: echo "Goodbye Phasecurve Technologies"
         shell: bash
